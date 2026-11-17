@@ -1,0 +1,63 @@
+DNS Investigation Quiz
+0/5 answered
+
+Q1. What is the main purpose of DNS?
+
+A. To convert MAC addresses into IP addresses
+
+B. To convert domain names into IP addressesok
+
+C. To encrypt network traffic
+
+D. To assign IP addresses automatically
+
+
+
+Q2. Which Wireshark filter displays only DNS queries?
+
+A. dns.flags.response == 1
+
+B. dns.qry.name
+ 
+C. dns.flags.response == 0 right
+
+D. arp.opcode == 1
+
+
+
+Q3. What IP address was returned for intranet.lab in Packet 8?
+
+A. 10.10.20.1
+
+B. 10.10.20.55
+
+C. 10.10.30.20
+
+D. 198.51.100.25
+
+
+
+Q4. Which two domain names resolved to the same IP address?
+
+A. intranet.lab and files.lab
+
+B. updates.example.net and login-check.example.org
+
+C. files.lab and updates.example.net
+
+D. intranet.lab and login-check.example.org
+
+
+
+Q5. Which Wireshark filter can identify DNS queries for intranet.lab?
+
+A. dns.a == 10.10.30.20
+
+B. dns.qry.name == "intranet.lab"
+
+C. dns.flags.response == 1
+
+D. arp.dst.proto_ipv4 == 10.10.20.1
+
+
+Submit Answers

@@ -1,0 +1,90 @@
+In this investigation we are working with the Splunk T-shirt company, here's a very high-level breakdown of their environment. Obviously that's one of the first things we always want to do: check out the environment. So make sure to write down any information that you think could be useful later. 
+
+Click on each of the 4 numbered icons below to learn more about the Splunk T-shirt company environment.
+
+In this investigation we are working with the Splunk T-shirt company, here's a very high-level breakdown of their environment. Obviously that's one of the first things we always want to do: check out the environment. So make sure to write down any information that you think could be useful later. 
+
+Click on each of the 4 numbered icons below to learn more about the Splunk T-shirt company environment.
+
+
+
+Headquarters
+The Splunk T-shirt Co. still maintains an office with many employees and their most critical servers. These handle everything from inventory, to sales and customer data. 
+
+Their local network is in the 192.168.x.x range. 
+
+In this investigation we are working with the Splunk T-shirt company, here's a very high-level breakdown of their environment. Obviously that's one of the first things we always want to do: check out the environment. So make sure to write down any information that you think could be useful later. 
+
+Click on each of the 4 numbered icons below to learn more about the Splunk T-shirt company environment.
+
+
+
+
+Remote Users
+They also have remote users and partners that connect via Virtual Private Network clients. 
+In this investigation we are working with the Splunk T-shirt company, here's a very high-level breakdown of their environment. Obviously that's one of the first things we always want to do: check out the environment. So make sure to write down any information that you think could be useful later. 
+
+Click on each of the 4 numbered icons below to learn more about the Splunk T-shirt company environment.
+
+
+
+
+
+Online store
+They have a Web store that customers can visit online to buy their products. 
+In this investigation we are working with the Splunk T-shirt company, here's a very high-level breakdown of their environment. Obviously that's one of the first things we always want to do: check out the environment. So make sure to write down any information that you think could be useful later. 
+
+Click on each of the 4 numbered icons below to learn more about the Splunk T-shirt company environment.
+
+
+
+
+
+
+Security
+Their network security suite includes Firewalls, Web and Email proxies, and additional tools to protect their web store and provide redundancy to their local services. 
+
+Their most critical servers have EDR tools and all their user machines have an AntiVirus/Malware tool. 
+
+
+
+They of course send all important logs from their security devices to a Splunk Enterprise Security instance that the Wonderland SOC helps manage. 
+
+
+
+Their Splunk version is 9.0.4.1 with Enterprise Security 7.1.1. 
+
+
+
+Did you write down any important information from this environment?
+
+When you are ready, continue to the ride-along, and don't forget to take notes!
+
+
+
+
+Did you write down any important information from this environment?
+
+When you are ready, continue to the ride-along, and don't forget to take notes!
+
+
+
+
+Did you write down any important information from this environment?
+
+When you are ready, continue to the ride-along, and don't forget to take notes!
+
+
+
+
+Did you write down any important information from this environment?
+
+When you are ready, continue to the ride-along, and don't forget to take notes!
+
+
+
+
+Did you write down any important information from this environment?
+
+When you are ready, continue to the ride-along, and don't forget to take notes!
+

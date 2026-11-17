@@ -1,0 +1,80 @@
+Packet 3 
+Who has 10.10.30.10? Tell 10.10.20.55
+
+
+ Packet 4 
+10.10.20.254 is at 02:00:00:00:00:fe
+
+
+what is unusal in packet 4
+
+A. Request mein .30.10 poocha, lekin reply mein .20.254 bataya.
+
+B. ARP Reply mein MAC Address nahi hota.
+
+C. ARP Request TCP packet hai.
+
+
+ Answer
+
+
+Question 1: Identifying ARP Requests
+Which Wireshark display filter shows only ARP Request packets?
+
+A. arp.opcode == 2
+
+B. arp.opcode == 1 right
+
+C. arp.src.proto_ipv4
+
+D. arp.dst.proto_ipv4
+Question 2: Identifying ARP Replies
+Which Wireshark display filter shows only ARP Reply packets?
+
+A. arp.opcode == 1
+
+B. arp.dst.proto_ipv4
+
+C. arp.opcode == 2  right
+
+D. arp.src.proto_ipv4
+Question 3: Identifying the Sender IP
+You want to investigate packets where the sender IP address is 10.10.20.55. Which filter should you use?
+
+A. arp.dst.proto_ipv4 == 10.10.20.55
+
+B. arp.src.proto_ipv4 == 10.10.20.55 right
+
+C. arp.opcode == 2
+
+D. arp.opcode == 1
+Question 4: Identifying the Target IP
+You want to find all ARP packets where devices are asking for the MAC address of 10.10.20.1. Which filter should you use?
+
+A. arp.src.proto_ipv4 == 10.10.20.1
+
+B. arp.opcode == 1
+
+C. arp.dst.proto_ipv4 == 10.10.20.1 c
+
+D. arp.opcode == 2
+Question 5: Investigating Unusual ARP Activity
+You observe the following two packets in Wireshark:
+
+Packet 3:
+Who has 10.10.30.10? Tell 10.10.20.55
+
+
+Packet 4:
+10.10.20.254 is at 02:00:00:00:00:fe
+
+
+What should you do next as a network security analyst?
+
+A. Immediately declare an ARP Spoofing attack.
+
+B. Investigate whether Proxy ARP is enabled and verify the network configuration.
+
+C. Ignore the packet because ARP Replies are always safe.
+
+D. Block all devices on the network.

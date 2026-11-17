@@ -1,0 +1,60 @@
+TCP Investigation Quiz
+0/5 answered
+
+Q1. Which TCP flag is used to initiate a connection?
+
+A. ACK
+
+B. FIN
+
+C. SYN
+
+D. RST
+
+
+
+Q2. What does an RST, ACK response usually indicate when a client probes a TCP port?
+
+A. The port is definitely open
+
+B. The connection is being rejected or reset, usually indicating a closed port
+
+C. The HTTP page loaded successfully
+
+D. The DNS query was successful
+
+
+
+Q3. Which TCP port is commonly used for SSH?
+
+A. 21
+
+B. 22
+
+C. 80
+
+D. 443
+
+
+
+Q4. What does the HTTP request GET /admin/ indicate?
+
+A. The client is requesting the /admin/ resource
+
+B. The server is shutting down
+
+C. The client is scanning DNS records
+
+D. The TCP connection is being reset
+
+
+
+Q5. What can you conclude from Packets 57, 58, and 59?
+
+A. The TCP connection failed
+
+B. The server rejected the connection
+
+C. The TCP three-way handshake completed successfully
+
+D. The client sent an ARP request

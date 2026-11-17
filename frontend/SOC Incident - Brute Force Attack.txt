@@ -1,0 +1,54 @@
+SOC Incident - Brute Force Attack
+
+**Incident Type:** Brute Force Attack
+
+**Alert Source:** SIEM
+
+**Source IP:** 185.220.101.45
+
+**Target Host:** DESKTOP-01
+
+**Target Account:** Administrator
+
+**Failed Login Attempts:** 500 attempts within 5 minutes
+
+**Severity:** High
+
+**Incident Details:**
+The SIEM has detected multiple failed login attempts against the Administrator account within a short time period. This activity may indicate a possible brute force attack.
+
+**Required Investigation:**
+1. Review Windows Security Logs.
+2. Check Event ID 4625 (Failed Logon).
+3. Verify whether any successful login occurred.
+4. Investigate the source IP address.
+
+**Assigned Team:** SOC L1
+
+**Status:** New – Investigation Pending
+
+**L1 Analyst Investigation Update**
+
+Initial investigation started.
+
+1. SIEM reported 500 failed login attempts within 5 minutes.
+2. Target account: Administrator.
+3. Target host: DESKTOP-01.
+4. Windows Security Event ID 4625 needs to be reviewed.
+5. Successful login activity is yet to be verified.
+
+**Next Action:** Review authentication logs and investigate the source IP address.
+
+**Investigation Status:** In Progress.
+
+**L1 to L2 Escalation**
+
+The incident is escalated to the L2 SOC team for further investigation.
+
+**Reason for Escalation:**
+- High number of failed login attempts.
+- Administrator account is targeted.
+- Source IP requires further investigation.
+- Successful authentication needs verification.
+
+**Requested Action:** L2 analyst should perform advanced investigation and determine whether the activity is malicious.

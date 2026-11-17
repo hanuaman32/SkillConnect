@@ -1,0 +1,18 @@
+IDS - snort 
+
+1.signature based 
+2.anamoly based 
+3.hybrid
+
+
+Packet sniffer - record rkhta hai
+packet mode - detect
+network mode -  malicious network 
+
+
+Projects 
+1.case study splunk based 
+2.edr - case study fim
+3.wireshark - case study 
+
+4. indeed soc l1 job des 
